@@ -43,3 +43,8 @@ html {
 .nav-links ul li {
     display: inline-block;
 }
+
+.feature {
+    width: 100%;
+    margin: 0 auto;
+}
