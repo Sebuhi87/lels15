@@ -47,4 +47,36 @@ html {
 .feature {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.card-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: calc((100% - 50px) / 2);
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.img img {
+    background-color: #FF926B;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.img2 img {
+    background: #26E7A1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.box:hover {
+    box-shadow: 10px 15px 8px blue;
 }
